@@ -43,4 +43,5 @@ const mapStateToProps = state => {
     email: state.auth.email
   };
 };
+
 export default connect(mapStateToProps, { emailChanged })(LoginForm);
